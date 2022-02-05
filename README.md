@@ -12,12 +12,12 @@ wsl --install
 2. Check "Windows Subsystem for Linux" option
 
 ### WSL 2 update:
-there are some requirements for updating wsl version 2. I guess all of them are met in newer versions of windows. If you want, you can check them [here]{https://docs.microsoft.com/en-us/windows/wsl/install-manual}
+there are some requirements for updating wsl version 2. I guess all of them are met in newer versions of windows. If you want, you can check them [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual)
 
 3. Enable Virtual Machine option in "Turn windows feature on or off"
 4. Go restart your machine. This tutorial will be right here for you!
 
-5. Download Linux Kernel update from [here]{https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi} and install it. 
+5. Download Linux Kernel update from [here](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) and install it. 
 
 6. Set WSL version 2 as default - 
 ```
