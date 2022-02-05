@@ -25,7 +25,18 @@ wsl --set-default-verion 2
 ```
 
 7. Install your Linux distro of your choice. (Ubuntu ofviously! I know, right? :p) I am recommending LTS version. Your will find them in Microsoft Store. 
+---
+* Note: if you install Linux distro before setting wsl version, you can do it now. Now worries! just type in powershell (administrator):
 
+to check version:
+```
+wsl -l -v 
+```
+if your linux distro is set to version 1, assuming you have installed linux kernel update (if not, now is the time), 
+```
+wsl --set-version Ubuntu-20.04 2
+```
+---
 8. First time openning, you will have to state your username and password. Go do that. 
 
 9. type in your ubuntu terminal - 
